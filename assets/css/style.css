@@ -1,0 +1,193 @@
+/* Universally affects the box(es) space within the website */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* Line 9 – Body (element) Affects entire web site background color */
+body {
+  background-color: #d9dcd6;
+}
+/* Line 10 – Affects the header class  */
+.header {
+  padding: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+/* Line 10, 11 – Affects the header class and h1 tag */
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+/* Line 10, 11 – here, each class and tag retains the color specified in the color attribute */
+.header h1 .seo {
+  color: #d9dcd6;
+}
+/* Line 10, through div on line 27 – Affects changes to the header class and each div element */
+.header div {
+  padding-top: 25px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+/* Line 10 through 27 – Affects header, div, and ul element within the string (verticle spider-web */
+.header div ul {
+  list-style-type: none;
+}
+/* Line 10-24 – Affects header, div, ul, li elements */
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+/* Line 15,18,23 – Affect changes made the the links in the header */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* Line 36,52,58,66,78,86,94 – Affects font size of each paragraph line */
+p {
+  font-size: 16px;
+}
+/* Line 28 – Affects the box properties for the background image */
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url('../images/digital-marketing-meeting.jpg');
+  background-size: cover;
+  background-position: center;
+}
+/* Line 31-33 – Affects the search engine opt. heading block image size/placement */
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+/* Line 47-49 – Affects the Online reput. Mngt. heading block image size/placement */
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+/* Line 29-73 – Affects container boxes, position, and text properties  */
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+/* Line 74-99 – Affects character attributes box spacing, text family */
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2589bd;
+}
+/* CSS Line 90-104 – tried grouping these class elements, haven't figured it out yet */
+.benefit-lead {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.benefit-brand {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.benefit-cost {
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+/* CSS Line 105-119 – was able to group these class elements */
+.benefit-lead.benefit-cost.benefit-brand h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.benefit-lead img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.benefit-brand img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.benefit-cost img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.search-engine-optimization {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2589bd;
+  color: #ffffff;
+}
+
+.online-reputation-management {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2589bd;
+  color: #ffffff;
+}
+
+.social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2589bd;
+  color: #ffffff;
+}
+
+.search-engine-optimization img {
+  max-height: 200px;
+}
+
+.online-reputation-management img {
+  max-height: 200px;
+}
+
+.social-media-marketing img {
+  max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.online-reputation-management h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.social-media-marketing h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
